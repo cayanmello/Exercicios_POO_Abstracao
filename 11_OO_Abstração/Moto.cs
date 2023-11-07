@@ -14,5 +14,11 @@ namespace _11_OO_Abstração
         {
             Console.WriteLine($"Dirigindo a {Marca} {Modelo} com {Cilindrada} cilindradas");
         }
+
+        public override void Apresentar()
+        {
+            base.Apresentar();
+            Console.WriteLine($"Cilindrada: {Cilindrada} cc");
+        }
     }
 }

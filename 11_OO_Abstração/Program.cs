@@ -145,7 +145,33 @@ namespace _11_OO_Abstração
             // d) Modifique a classe "Veiculo" para ter um método virtual "Apresentar" que exiba informações gerais do veículo.
             // e) Sobrescreva o método "Apresentar" nas classes derivadas para incluir informações específicas, como o número de portas para carros ou a cilindrada para motos.
 
+            // Implementar código...
 
+
+
+
+            // 8 - Crie uma classe chamada "Calculadora" com métodos para somar, subtrair, multiplicar e dividir números.
+            // Implemente sobrecargas desses métodos para aceitar diferentes números de argumentos e tipos, como inteiros e decimais.
+
+            //Calculadora calculadora = new Calculadora();
+
+            //int resultadoSomaInteiros = calculadora.Somar(1, 2, 3);
+            //decimal resultadoSomaDecimais = calculadora.Somar(1.5m, 2.7m, 3.1m);
+            //int resultadoSubtracaoInteiros = calculadora.Subtrair(5, 3);
+            //decimal resultadoSubtracaoDecimais = calculadora.Subtrair(7.5m, 2.3m);
+            //int resultadoMultiplicacaoInteiros = calculadora.Multiplicar(2, 3, 4);
+            //decimal resultadoMultiplicacaoDecimais = calculadora.Multiplicar(1.5m, 2.5m);
+            //int resultadoDivisaoInteiros = calculadora.Dividir(10, 2);
+            //decimal resultadoDivisaoDecimais = calculadora.Dividir(8.5m, 2.1m);
+
+            //Console.WriteLine($"Soma de inteiros: {resultadoSomaInteiros}");
+            //Console.WriteLine($"Soma de decimais: {resultadoSomaDecimais}");
+            //Console.WriteLine($"Subtração de inteiros: {resultadoSubtracaoInteiros}");
+            //Console.WriteLine($"Subtração de decimais: {resultadoSubtracaoDecimais}");
+            //Console.WriteLine($"Multiplicação de inteiros: {resultadoMultiplicacaoInteiros}");
+            //Console.WriteLine($"Multiplicação de decimais: {resultadoMultiplicacaoDecimais}");
+            //Console.WriteLine($"Divisão de inteiros: {resultadoDivisaoInteiros}");
+            //Console.WriteLine($"Divisão de decimais: {resultadoDivisaoDecimais}");
         }
     }
 }

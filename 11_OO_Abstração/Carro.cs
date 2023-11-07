@@ -14,5 +14,11 @@ namespace _11_OO_Abstração
         {
             Console.WriteLine($"Dirigindo o {Marca} {Modelo} com {QuantidadeDePortas} portas");
         }
+
+        public override void Apresentar()
+        {
+            base.Apresentar();
+            Console.WriteLine($"Número de Portas: {QuantidadeDePortas}");
+        }
     }
 }
