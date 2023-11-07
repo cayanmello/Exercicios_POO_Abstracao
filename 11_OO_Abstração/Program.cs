@@ -204,6 +204,20 @@ namespace _11_OO_Abstração
 
             //Console.WriteLine($"Bônus do Desenvolvedor {desenvolvedor.Nome}: {desenvolvedor.CalcularBonus()}");
             //desenvolvedor.MostrarFuncao();
+
+
+
+
+            //11 -
+            //a) Crie uma classe "Produto" com propriedades como "Nome," "Preço" e "Estoque."
+            //b) Implemente construtores sobrecarregados que permitam criar instâncias de produtos de diferentes maneiras,
+            //    como especificando apenas o nome ou especificando todas as propriedades.
+
+            //Produto produto1 = new Produto("Caneta");
+            //Produto produto2 = new Produto("Caderno", 15.99, 50);
+
+            //Console.WriteLine($"Produto 1 - Nome: {produto1.Nome}, Preço: {produto1.Preco}, Estoque: {produto1.Estoque}");
+            //Console.WriteLine($"Produto 2 - Nome: {produto2.Nome}, Preço: {produto2.Preco}, Estoque: {produto2.Estoque}");
         }
     }
 }
