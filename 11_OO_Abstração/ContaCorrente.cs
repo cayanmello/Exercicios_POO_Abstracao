@@ -8,6 +8,7 @@ namespace _11_OO_Abstração
 {
     internal class ContaCorrente : ContaBancaria
     {
+        private bool primeiroSaque = true;
         public override void Depositar(double valor)
         {
             Saldo += valor;
@@ -24,6 +25,16 @@ namespace _11_OO_Abstração
             else
             {
                 Console.WriteLine("Saldo insuficiente para realizar o saque na conta corrente.");
+            }
+
+            double custoDoSaque = 0.05;
+            if (primeiroSaque)
+            {
+                primeiroSaque = false;
+            }
+            else
+            {
+                valor += custoDoSaque;
             }
         }
     }

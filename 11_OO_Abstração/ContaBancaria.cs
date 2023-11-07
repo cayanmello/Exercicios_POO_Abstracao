@@ -10,7 +10,26 @@ namespace _11_OO_Abstração
     {
         public double Saldo {  get; set; }
 
-        public abstract void Depositar(double valor);
-        public abstract void Sacar(double valor);
+        public ContaBancaria()
+        {
+            Saldo = 0;
+        }
+
+        public virtual void Depositar(double valor)
+        {
+            Saldo += valor;
+        }
+
+        public virtual void Sacar(double valor)
+        {
+            if (valor <= Saldo)
+            {
+                Saldo -= valor;
+            }
+            else
+            {
+                Console.WriteLine("Saldo insuficiente.");
+            }
+        }
     }
 }

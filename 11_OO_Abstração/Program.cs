@@ -105,6 +105,47 @@ namespace _11_OO_Abstração
 
             //Console.WriteLine($"Desconto de {livro.CalcularDesconto()} para o livro: {livro.Nome}");
             //Console.WriteLine($"Desconto de {eletronico.CalcularDesconto()} para o eletrônico: {eletronico.Nome}");
+
+
+
+
+            //6 - Crie uma classe "ContaBancaria" com propriedades para "Saldo"
+            //e métodos "Depositar" e "Sacar".
+
+            //Crie classes derivadas, como "ContaCorrente" e "ContaPoupanca",
+            //que implementam os métodos de depósito e saque de acordo com
+            //as regras de cada tipo de conta.
+
+            //Regras: 
+            //i) Para sacar na conta poupança, cada saque tem um custo de 0,10
+            //ii) para depositar na conta poupança, não existe custo
+            //iii) Para sacar na conta corrente somente o primeiro saque é gratuito e o restante tem tem um custo de 0,05 centavos
+            //iv) Para depositar na conta corrente não existe custo porém deve apresentar a mensgem na tela do valor do saldo.
+
+            //ContaPoupanca poupanca = new ContaPoupanca();
+            //poupanca.Depositar(200);
+            //poupanca.Sacar(50);
+            //Console.WriteLine($"Saldo da Conta Poupança: {poupanca.Saldo}");
+
+            //ContaCorrente corrente = new ContaCorrente();
+            //corrente.Depositar(100);
+            //corrente.Sacar(20);
+            //corrente.Sacar(10);
+            //Console.WriteLine($"Saldo da Conta Corrente: {corrente.Saldo}");
+
+
+
+
+            // 7)
+            // a) Crie uma classe base chamada "Veiculo" com propriedades como "Marca" e "Ano."
+            // b) Crie classes derivadas como "Carro" e "Moto" que herdem de "Veiculo" e adicionem propriedades específicas,
+            // como "Número de Portas" para carros e "Cilindrada" para motos.
+            // c) Crie uma lista de Veículos que inclui instâncias de "Veiculo", "Carro" e "Moto."
+            // Use um loop para percorrer a lista e chamar um método "Apresentar" que exibe informações sobre cada veículo, demonstrando o polimorfismo.
+            // d) Modifique a classe "Veiculo" para ter um método virtual "Apresentar" que exiba informações gerais do veículo.
+            // e) Sobrescreva o método "Apresentar" nas classes derivadas para incluir informações específicas, como o número de portas para carros ou a cilindrada para motos.
+
+
         }
     }
 }

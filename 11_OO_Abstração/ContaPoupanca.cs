@@ -25,6 +25,16 @@ namespace _11_OO_Abstração
             {
                 Console.WriteLine("Saldo insuficiente para realizar o saque na conta poupança.");
             }
+
+            double custoDoSaque = 0.10;
+            if (valor + custoDoSaque <= Saldo)
+            {
+                Saldo -= valor + custoDoSaque;
+            }
+            else
+            {
+                Console.WriteLine("Saldo insuficiente.");
+            }
         }
     }
 }
