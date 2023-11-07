@@ -9,8 +9,15 @@ namespace _11_OO_Abstração
     internal abstract class Veiculo
     {
         public string Marca { get; set; }
-        public string Modelo {  get; set; }
-        public string Ano { get; set; }
+        public int Modelo {  get; set; }
+        public int Ano { get; set; }
+
+        public Veiculo(string marca, int modelo, int ano)
+        {
+            Marca = marca;
+            Modelo = modelo;
+            Ano = ano;
+        }
 
         public abstract void Dirigir();
 

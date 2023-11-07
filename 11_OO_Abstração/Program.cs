@@ -145,7 +145,17 @@ namespace _11_OO_Abstração
             // d) Modifique a classe "Veiculo" para ter um método virtual "Apresentar" que exiba informações gerais do veículo.
             // e) Sobrescreva o método "Apresentar" nas classes derivadas para incluir informações específicas, como o número de portas para carros ou a cilindrada para motos.
 
-            // Implementar código...
+            //List<Veiculo> veiculos = new List<Veiculo>
+            //{
+            //    new Carro("Ford", 2014, 4),
+            //    new Moto("Hornet", 2023, 600)
+            //};
+
+            //foreach (var veiculo in veiculos)
+            //{
+            //    veiculo.Apresentar();
+            //    Console.WriteLine();
+            //}
 
 
 

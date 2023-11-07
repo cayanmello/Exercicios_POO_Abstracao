@@ -8,6 +8,10 @@ namespace _11_OO_Abstração
 {
     internal class Moto : Veiculo
     {
+        public Moto(string marca, int modelo, int ano) : base(marca, modelo, ano)
+        {
+        }
+
         public int Cilindrada { get; set; }
 
         public override void Dirigir()
@@ -17,8 +21,7 @@ namespace _11_OO_Abstração
 
         public override void Apresentar()
         {
-            base.Apresentar();
-            Console.WriteLine($"Cilindrada: {Cilindrada} cc");
+            Console.WriteLine($"Dirigindo a {Marca} {Modelo}");
         }
     }
 }
