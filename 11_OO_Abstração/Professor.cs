@@ -8,6 +8,10 @@ namespace _11_OO_Abstração
 {
     internal class Professor : Pessoa
     {
+        public Professor(string nome, int idade) : base(nome, idade)
+        {
+        }
+
         public string Disciplina {  get; set; }
 
         public override void Apresentar()

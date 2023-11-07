@@ -172,6 +172,38 @@ namespace _11_OO_Abstração
             //Console.WriteLine($"Multiplicação de decimais: {resultadoMultiplicacaoDecimais}");
             //Console.WriteLine($"Divisão de inteiros: {resultadoDivisaoInteiros}");
             //Console.WriteLine($"Divisão de decimais: {resultadoDivisaoDecimais}");
+
+
+
+
+            //9 -
+            //a) Crie uma classe base "Pessoa" com propriedades como "Nome" e "Idade."
+            //b) Crie uma classe derivada "Estudante" que herde de "Pessoa" e adicione propriedades específicas, como "Matricula" e "Curso."
+            //c) Certifique - se de que a classe derivada chame o construtor da classe base
+
+            //Aluno aluno = new Aluno("João", 20, 12345, "Engenharia");
+
+            //Console.WriteLine($"Nome: {aluno.Nome}");
+            //Console.WriteLine($"Idade: {aluno.Idade}");
+            //Console.WriteLine($"Matrícula: {aluno.Matricula}");
+            //Console.WriteLine($"Curso: {aluno.Curso}");
+
+
+
+
+            //10 -
+            //a) Crie uma classe base "Funcionario" com propriedades como "Nome" e "Salario."
+            //b) Crie classes derivadas, como "Gerente" e "Desenvolvedor," que herdem de "Funcionario"
+            //e forneçam implementações específicas para calcular bônus ou mostrar funções.
+
+            //Gerente gerente = new Gerente("Carlos", 5000);
+            //Desenvolvedor desenvolvedor = new Desenvolvedor("Ana", 4000);
+
+            //Console.WriteLine($"Bônus do Gerente {gerente.Nome}: {gerente.CalcularBonus()}");
+            //gerente.MostrarFuncao();
+
+            //Console.WriteLine($"Bônus do Desenvolvedor {desenvolvedor.Nome}: {desenvolvedor.CalcularBonus()}");
+            //desenvolvedor.MostrarFuncao();
         }
     }
 }
